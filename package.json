@@ -1,7 +1,7 @@
 {
   "name": "@voxelful/multimediator",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "module": "dist/index.es.js",
   "main": "dist/index.umd.js",
   "exports": {
@@ -23,5 +23,8 @@
   },
   "devDependencies": {
     "vite": "^6.0.1"
+  },
+  "dependencies": {
+    "@voxelful/queueeventemitter": "^0.0.5"
   }
 }

@@ -1,7 +1,7 @@
 import './style.css'
-import QueueEventEmitter from '@voxelful/queueeventemitter'
+import { QueueEventEmitter } from '@voxelful/queueeventemitter'
 
-export default class MultiMediator extends QueueEventEmitter {
+export class MultiMediator extends QueueEventEmitter {
   static instances = []
   constructor(name) {
     super()
